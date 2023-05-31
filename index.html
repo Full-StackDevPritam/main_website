@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="./FavIcon/android-chrome-192x192.webp" type="image/x-icon">
+
+    <!-- Poppins Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Roboto Font Link -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Ubuntu Font -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <!-- Animate.css Linking -->
+    <link rel="stylesheet" href="./lib/animate/animate.min.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Digiscalen</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="/">Digiscalen</a>
+        </div>
+        <ul class="menu">
+            <i class="fas fa-times"></i>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about_us">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="/contact-us/">Contact Us</a></li>
+        </ul>
+        <i class="fas fa-bars"></i>
+    </nav>
+
+    <div class="home-container">
+        <div class="home-content">
+            <h1> <span id="heading"></span></h1>
+            <p>The world's leading digital services agency dedicated to providing high-quality solutions at affordable
+                prices. As the CEO of Digiscalen, Pritam Panda, alongside our talented team, we are committed to
+                delivering exceptional digital services that cater to your specific needs. With years of experience and
+                expertise in various fields, we ensure top-notch results that exceed your expectations.</p>
+            <div class="more-btn">
+                <a href="services.html">Read More</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="box wow zoomIn">
+            <div class="icon">
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="content">
+                <h3 class="item">Happy Clients</h3>
+                <h2><span>10</span>+</h2>
+            </div>
+        </div>
+        <div class="box wow zoomIn" data-wow-delay="0.3s">
+            <div class="icon">
+                <i class="fas fa-check"></i>
+            </div>
+            <div class="content">
+                <h3 class="item">Projects Done</h3>
+                <h2><span>10</span>+</h2>
+            </div>
+        </div>
+        <div class="box wow zoomIn" data-wow-delay="0.5s">
+            <div class="icon">
+                <i class="fas fa-users-cog"></i>
+            </div>
+            <div class="content">
+                <h3 class="item">Team Members</h3>
+                <h2><span>10</span>+</h2>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- About us -->
+    <div class="about" id="about_us">
+        <div class="left_side wow fadeInUp">
+            <h4>About Us</h4>
+            <h2>The Best Digital Solution With Industrial Expertise</h2>
+            <p>Digiscalen is a leading digital services agency, dedicated to providing top-notch solutions to
+                clients worldwide. As the CEO of Digiscalen, Pritam Panda leads a team of talented professionals who
+                are passionate about delivering exceptional digital services at competitive prices.</p>
+            <div class="working-list">
+                <ul class=" wow zoomIn" data-wow-delay=".3s">
+                    <li><i class="fas fa-check"></i> Innovative Solutions</li>
+                    <li><i class="fas fa-check"></i> Professional Team</li>
+                </ul>
+                <ul class=" wow zoomIn" data-wow-delay=".4s">
+                    <li><i class="fas fa-check"></i> 24/7 Support</li>
+                    <li><i class="fas fa-check"></i> Fair Prices</li>
+                </ul>
+            </div>
+            <div class="contact-number">
+                <div class="phone-symbol">
+                    <i class="fas fa-phone-alt text-white"></i>
+                </div>
+                <h3>+91 6295822108</h3>
+            </div>
+            <div class="req">
+                <a href="#" id="req_for_quote" class="text-white">Request A Quote</a>
+            </div>
+        </div>
+
+        <div class="right_side">
+            <img class="wow zoomIn" data-wow-delay=".2s" src="./Images/about.webp" alt="" width="500px">
+        </div>
+    </div>
+    <!-- End About us -->
+
+
+
+    <!-- Services Section -->
+
+    <div class="services" id="services">
+        <div class="container">
+            <div class="title">
+                <h1>OUR SERVICES</h1>
+                <h4>At Digiscalen, we offer a wide range of services designed to enhance your digital presence and
+                    elevate your brand to new heights:</h4>
+            </div>
+            <div class="services-list">
+                <div class="service wow zoomIn">
+                    <div class="icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Our web development services encompass a range of options to suit your specific needs. From
+                        static portfolio websites to dynamic multi-page websites, we create user-friendly and visually
+                        appealing online experiences that drive engagement and conversions.ts.</p>
+                    <a href="#" class="next_page"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div class="service wow zoomIn" data-wow-delay=".3s">
+                    <div class="icon">
+                        <i class="fab fa-facebook"></i>
+                    </div>
+                    <h3>Social Media Post Monetization</h3>
+                    <p>Monetize your social media posts and turn your content into revenue streams. Our team will assist
+                        you in exploring various monetization methods, such as sponsored content and influencer
+                        partnerships, to maximize your earning potential.</p>
+                    <a href="#" class="next_page"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div class="service wow zoomIn" data-wow-delay="">
+                    <div class="icon">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <h3>Instagram Profile Monetization</h3>
+                    <p>Unlock the potential of your Instagram profile and monetize your presence. Our social media
+                        experts will guide you in leveraging strategies to generate income from your Instagram account
+                        and maximize your online reach.</p>
+                    <a href="#" class="next_page"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+
+                <div class="service wow zoomIn" data-wow-delay=".3s">
+                    <div class="icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO Optimization</h3>
+                    <p>We optimize your website to improve its visibility in search engine rankings. Our SEO experts
+                        employ proven techniques to increase organic traffic and enhance your online presence.</p>
+                    <a href="#" class="next_page"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+                <div class="service wow zoomIn" data-wow-delay="">
+                    <div class="icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Graphics Design</h3>
+                    <p>Our skilled graphic designers create captivating visuals that elevate your brand's image across
+                        various platforms. From banners and brochures to infographics and illustrations, we ensure that
+                        your graphics convey your message effectively.</p>
+                    <a href="#" class="next_page"><i class="fas fa-long-arrow-alt-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Services Section -->
+
+
+
+
+    <!-- End Team Section -->
+
+    <div class="team">
+        <div class="container">
+            <div class="row" id="team">
+                <div class="col-md-12 title">
+                    <h1>Our Team</h1>
+                    <h4>We are a creative agency that combines creative thinking with technical solutions.</h4>
+
+                </div>
+            </div>
+            <div class="team_list">
+                <div class="team_member wow zoomIn">
+                    <div class="image">
+                        <img src="./Images/Team-1.webp" alt="" class="img-fluid" width="100%">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h3>Mr. Pritam Panda</h3>
+                    </div>
+                    <div class="position">
+                        <p>Founder & Full-Stack Engineer</p>
+                    </div>
+                </div>
+                <div class="team_member wow zoomIn" data-wow-delay=".3s">
+                    <div class="image">
+                        <img src="./Images/Team-2.webp" alt="" class="img-fluid" width="100%">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h3>Mr. Tanmoy Das</h3>
+                    </div>
+                    <div class="position">
+                        <p>Internet Marketer & Graphics Designer</p>
+                    </div>
+                </div>
+                <div class="team_member wow zoomIn">
+                    <div class="image">
+                        <img src="./Images/Team-3.webp" alt="" class="img-fluid" width="100%">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h3>Mr. Bishwaroop Das</h3>
+                    </div>
+                    <div class="position">
+                        <p>Cyber Security Engineer & Editor</p>
+                    </div>
+                </div>
+                <div class="team_member wow zoomIn" data-wow-delay=".3s">
+                    <div class="image">
+                        <img src="./Images/Team-4.webp" alt="" class="img-fluid" width="100%">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="name">
+                        <h3>Mr. Nilanjan Mondal</h3>
+                    </div>
+                    <div class="position">
+                        <p>Content Writer & Designer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Team Section -->
+
+    <!-- Start Request For Qoute -->
+
+    <div class="request_qoute_section">
+        <div class="left_side wow fadeInUp">
+            <h4>Request a quote</h4>
+            <h2>Need A Free Quote? Please Feel Free to Contact Us</h2>
+
+            <div class="row">
+                <div class="col wow zoomIn" data-wow-delay="0.3s">
+                    <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
+                </div>
+                <div class="col wow zoomIn" data-wow-delay="0.3s">
+                    <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support
+                    </h5>
+                </div>
+            </div>
+
+            <p>Digiscalen is a leading digital services agency, dedicated to providing top-notch solutions to
+                clients worldwide. As the CEO of Digiscalen, Pritam Panda leads a team of talented professionals who
+                are passionate about delivering exceptional digital services at competitive prices.</p>
+            <div class="contact-number">
+                <div class="phone-symbol">
+                    <i class="fas fa-phone-alt text-white"></i>
+                </div>
+                <h3>+91 6295822108</h3>
+            </div>
+        </div>
+
+        <div class="right_side">
+            <form action="#" class="wow fadeInUp" data-wow-delay=".2s">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <select name="sel_service" id="sel_service">
+                        <option value="" selected>Select Service</option>
+                        <option value="Website Design">Website Design</option>
+                        <option value="Website Development">Website Development</option>
+                        <option value="App Development">App Development</option>
+                        <option value="SEO Optimization">SEO Optimization</option>
+                        <option value="Digital Marketing">Digital Marketing</option>
+                        <option value="Branding">Branding</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea name="qoute_messege" id="qoute_messege" cols="30" rows="10"
+                        placeholder="Messege"></textarea>
+                </div>
+                <button type="submit">Request a Quote</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- End Request For Qoute -->
+
+    <!-- Start Footer -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div>
+                    <div class="col-md-4 footer_logo">
+                        <a href="/">Digiscalen</a>
+                        <p>Your Trusted Partner for Digital Services</p>
+                    </div>
+                    <div class="col-md-4 footer_menu">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="service.html">Services</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 footer_contact">
+                    <p>Address&nbsp;: &nbsp;<span>No 1, Street Name, City Name, Country Name</span></p>
+                    <p>Phone&nbsp;: &nbsp;<a href="tel:+91 62958 22108">+91 62958 22108</a></p>
+                    <p>Email&nbsp;: &nbsp;<a
+                            href="mailto:connectwithdigiscalen@gmail.com">connectwithdigiscalen@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="copy_right">
+        <p>Copyright &copy;2023 <a href="#">digiscalen.com</a></p>
+    </div>
+
+    <!-- End Footer -->
+
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+    <script src="./lib/counterup/counterup.min.js"></script>
+    <script src="./lib/wow/wow.js"></script>
+    <script src="./JS/typed.js"></script>
+    <script src="./JS/script.js"></script>
+
+    <script>
+        $('[data-toggle="counter-up"]').counterUp({
+            delay: 10,
+            time: 2000
+        });
+    </script>
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        var typed = new Typed('#heading', {
+            strings: ['Welcome to Digiscalen', 'Your Trusted Partner for Digital Services'],
+            typeSpeed: 50,
+            loop: true
+        });
+    </script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5TESB7PBJ9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-5TESB7PBJ9');
+    </script>
+</body>
+
+</html>
